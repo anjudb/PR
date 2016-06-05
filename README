@@ -1,3 +1,6 @@
+This project is s study of various pattern classification experiment such as Gaussian mixture model (GMM) ,Hidden Markov model (HMM) and Discrete Time warping (DTW) for classification of different data set .GMM is often used to perform density estimation of multi-modal data. HMMs are used to model events with temporal and dynamical variations.DTW is used to measure similarity between two
+sequences .
+
 INSTRUCTIONS
 
 1. Program Name:  create_mlf.cpp
