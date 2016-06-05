@@ -1,0 +1,62 @@
+INSTRUCTIONS
+
+1. Program Name:  create_mlf.cpp
+		This is to create the label file to run HTK.
+	Output:	labelled mlf file
+
+2. Program Name: makeproto.cpp
+	      This is to copy the initial model number of symbols times, in a specific format to train HMM.
+	Output: model prototype
+
+3. Program Name: dtw_mandi_some_classes.m
+		Performs DTW on the given Mandi data set using only 5 classes.
+
+4. Program Name: dtw_kmean.m
+		Performs DTW on the given Mandi data set using only all classes.
+
+5. Program Name : Perceptron_new.m
+		Perceptron classifier (one versus rest).
+	Output: Confusion matrix
+
+6. Program Name:  get_scores_DTW(test,reference)
+	  This program calculates min scores of testdata.
+	   run as get_scores_DTW(test,reference)
+   output: minimum scores of test data
+7. Program Name:  gmm_final.m
+		Runs gmm on image data set with pca preprocessing on image data.
+	Output:	confusion matrix and other scores parameters.
+8. Program Name: BOW_images.m
+		Runs gmm on image dataset with bow preprocessing on image data.
+	output : confusion matrix and other scores parameters.
+9. Program Name:pca_knn.m	
+		runs knn on image dataset with pca preprocessing on image data.
+	output : confusion matrix and other scores parameters.
+10. Program Name:Knn_pp_bow.m
+		runs knn on image dataset with bow preprocessing on image data.
+	output : confusion matrix and other scores parameters.
+11. Program Name:pca_parzven.m
+		runs parzen gaussian kernal on image dataset with pca preprocessing on image data.
+	output : confusion matrix and other scores parameters.
+12. Program Name:pca_parzven_hemisphere.m
+		runs parzen hemisphere kernal on image dataset with pca preprocessing on image data.
+	output : confusion matrix and other scores parameters.
+13. Program Name:pca_parzven_hemisphere.m
+		runs parzen hemisphere kernal on image dataset with pca preprocessing on image data.
+	output : confusion matrix and other scores parameters.
+14.Program Name:fda.m
+		runs fda image dataset.
+	output : confusion matrix and other scores parameters.
+15.Program name :svm toolkit
+		runs svm image dataset.
+	output : Accuracy and Predicated labels.
+
+16.Program name :dtw_music.m
+		Performs dtw on music data set.
+	output : Accuracy and Predicated labels.
+
+17.Program name :dtw_kmeans_music.m
+		Performs dtw on music data set after applying k-means.
+		output : Accuracy and Predicated labels.
+
+All other functions are called internally.
+
